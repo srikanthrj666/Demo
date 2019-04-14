@@ -12,4 +12,10 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping("/")
+	public String home2() {
+		System.out.println("****Home Controller******");
+		return "home";
+	}
+	
 }
